@@ -63,7 +63,7 @@ def Find_Neighbors(row, column, path):
 # MAIN 
 
 
-# We create a matrix where the path of the labyrinth is symbolized with 1 and the walls with 0. 
+# We create a matrix where the path of the labyrinth is symbolized with a letter and the walls with 0. 
 Labyrinth =      [[0,    0,      0,    0,    0], 
     		 [0,    "D",    "E",  "F",   0], 
     		 [0,    "C",     0,   "H",   0], 
